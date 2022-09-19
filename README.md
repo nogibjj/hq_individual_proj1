@@ -11,4 +11,4 @@ This repository contains: (1) my code files, (2) the scaffold files, (3) the com
 With the rising inflation, I want to know how much we pay for commodties at a given time. Therefore, I leveraged a Kaggle dataset called [Commodity Prices Dataset (2000 - 2022)](https://www.kaggle.com/datasets/debashish311601/commodity-prices) in this project. A wed app was delivered using the Dask data framework and Fast API. The app will take inputs from users and return the price of a commodity for a specific date. For example, one can put in "2000-01-18" and "GOLD" to review the gold price on the given date. 
 
 # Demo Video
-[Project 1 - Heather Qiu - Tracking Inflation by Commodity Prices - Watch Video]()
+[Project 1 - Heather Qiu - Tracking Inflation by Commodity Prices - Watch Video](https://youtu.be/9R_JWqQsjEs)
