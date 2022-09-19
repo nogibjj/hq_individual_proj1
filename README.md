@@ -1,3 +1,11 @@
-# individual_proj1
+# Individual Project 1: Tracking Inflation by Commodity Prices Between 2000 to 2022 Using FastAPI
 
-In this project, I used a Kaggle dataset called Commodity Prices Dataset (2000 - 2022): https://www.kaggle.com/datasets/debashish311601/commodity-prices. The csv file includes the prices for 23 different commodities from 2000 until present. I read into the dataset using dask, and built a function to return the price of a commodity based on the commodity type and the date. 
+[![Python application test with Github Actions](https://github.com/nogibjj/hq_individual_proj1/actions/workflows/main.yml/badge.svg)](https://github.com/nogibjj/hq_individual_proj1/actions/workflows/main.yml)
+
+This repository contains: (1) my code files, (2) the scaffold files, (3) the commodity dataset, (4) A Github Workflow Action, and (5) a short video walkthrough of my project. Please find below for more details!
+
+![Blank diagram - Process flowchart with Loom](https://user-images.githubusercontent.com/105904149/190942290-e90f3e33-9182-45a2-aa13-bbe6ffa66df3.png)
+
+# Project Description
+
+With the rising inflation, I want to know how much we pay for commodties at a given time. Therefore, I leveraged a Kaggle dataset called [Commodity Prices Dataset (2000 - 2022)](https://www.kaggle.com/datasets/debashish311601/commodity-prices) in this project. A wed app was delivered using the Dask data framework and Fast API. The app will take inputs from users and return the price of a commodity for a specific date. For example, one can put in "2000-01-18" and "GOLD" to review the gold price on the given date. 
